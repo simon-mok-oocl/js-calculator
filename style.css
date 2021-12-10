@@ -1,0 +1,12 @@
+body{
+	background-color: lightblue;
+	text-align: center;
+}
+
+form
+{
+	border-style: groove;
+	width: 200px;
+	margin-left:auto;
+	margin-right:auto;
+}
