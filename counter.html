@@ -1,10 +1,21 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
         <title>Counter</title>
       </head>
-      <body>
-        <p>Hello world!</p>
-      </body>
+
+      <form>
+	      <input type='button' value='-' onclick="dec('val1')"></input> 
+	      <span id='val1Display'></span>
+	      <input type='button' value='+' onclick="inc('val1')"></input> 
+
+	      <br>
+
+	      <input type='button' value='-' onclick="dec('val2')"></input> 
+	      <span id='val2Display'></span>
+	      <input type='button' value='+' onclick="inc('val2')"></input> 
+      </form>
+      <span id='sumDisplay'></span>
 </html>
+<script src='main.js' ></script>
